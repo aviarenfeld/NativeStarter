@@ -3,7 +3,7 @@ React Native starter
 
 **Getting started with a new React Native project**
 
-NodeJS 4.0 or greater is required for React Native. The default Homebrew package for Node is currently 6.0.
+NodeJS# 4.0 or greater is required for React Native. The default Homebrew package for Node is currently 6.0.
 Use Homebrew to install Node.js
 brew install node
 
@@ -25,13 +25,13 @@ Build your App.
 
 **Tags to review**
 
-##View## 
+View## 
 The most fundamental component for building UI, View is a container that supports layout with flexbox, style, some touch handling, and accessibility controls, and is designed to be nested inside other views and to have 0 to many children of any type. View maps directly to the native view equivalent on whatever platform React is running on, whether that is a UIView, <div>, android.view, etc. 
 
-Image
+Image##
 React Native provides a unified way of managing images in your iOS and Android apps. 
 
-TouchableHighlight
+TouchableHighlight##
 A wrapper for making views respond properly to touches. On press down, the opacity of the wrapped view is decreased, which allows the underlay color to show through, darkening or tinting the view. The underlay comes from adding a view to the view hierarchy, which can sometimes cause unwanted visual artifacts if not used correctly, for example if the backgroundColor of the wrapped view isn't explicitly set to an opaque color.
 
 
