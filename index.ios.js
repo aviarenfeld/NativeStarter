@@ -9,24 +9,21 @@ import {
   AppRegistry,
   StyleSheet,
   Text,
+  Image,
   View
 } from 'react-native';
 
 class NativeStarter extends Component {
   render() {
     return (
-      <View style={styles.container}>
+      <Image 
+      style={styles.container}
+      source={require('./images/background.jpg')}
+      >
         <Text style={styles.welcome}>
-          Welcome to React Native!
+          Time to build a React Native app!
         </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
-        </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
-        </Text>
-      </View>
+      </Image>
     );
   }
 }
@@ -36,10 +33,15 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: 'rgba(0,0,0,0)',
+    width: null,
+    height: null,
   },
   welcome: {
+    flex: 1,
+    padding: 40,
     fontSize: 20,
+    color: 'white',
     textAlign: 'center',
     margin: 10,
   },
