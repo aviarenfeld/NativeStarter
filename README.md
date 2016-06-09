@@ -26,7 +26,7 @@ Build your App.
 **Tags to review**
 
 ##View
-The most fundamental component for building UI, View is a container that supports layout with flexbox, style, some touch handling, and accessibility controls, and is designed to be nested inside other views and to have 0 to many children of any type. View maps directly to the native view equivalent on whatever platform React is running on, whether that is a UIView, <div>, android.view, etc. 
+The most fundamental component for building UI, View is a container that supports layout with flexbox, style, some touch handling, and accessibility controls, and is designed to be nested inside other views and to have 0 to many children of any type. View maps directly to the native view equivalent on whatever platform React is running on, whether that is a UIView, android.view, etc. 
 
 ##Image##
 React Native provides a unified way of managing images in your iOS and Android apps. 
